@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/user_profile_menu"
+        android:icon="@drawable/userprofile"
+        android:title="My Profile" />
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/user_messages_menu"
+            android:icon="@drawable/inbox"
+            android:title="Messages" />
+        <item
+            android:id="@+id/add_assignment_menu"
+            android:icon="@drawable/assignments"
+            android:title="Add Assignments" />
+        <item
+            android:id="@+id/add_practicle_menu"
+            android:icon="@drawable/practicles"
+            android:title="Add Practicles" />
+        <item
+            android:id="@+id/users_friends_menu"
+            android:icon="@drawable/friends"
+            android:title="Friends" />
+    </group>
+
+    <item android:title="Communicate"
+        android:checkable="true">
+        <menu>
+
+            <item
+                android:id="@+id/share_app"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/user_suggestion_menu"
+                android:icon="@drawable/suggestion"
+                android:title="Question/Suggestions" />
+        </menu>
+    </item>
+
+</menu>

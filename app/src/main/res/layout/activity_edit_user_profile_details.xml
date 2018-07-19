@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edit_profile_user_bio_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="Enter your bio here"
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/edit_profile_user_branch_edit_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+           android:hint="Enter your branch"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:inputType="textCapCharacters"/>
+        <EditText
+            android:id="@+id/edit_profile_user_div_edit_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Enter your division"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/edit_profile_user_roll_no_edit_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Enter your roll no"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:inputType="textPersonName"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+        <Button
+        android:id="@+id/edit_profile_save_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+            android:layout_weight="1"
+        android:text="Save"
+        android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/edit_profile_reset_profile_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Reset"
+            android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
